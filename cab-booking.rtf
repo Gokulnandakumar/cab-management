@@ -1,0 +1,127 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset1 Cambria Math;}{\f2\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.19041}{\*\mmathPr\mmathFont1\mwrapIndent1440 }\viewkind4\uc1 
+\pard\sa160\sl259\slmult0\f0\fs22\lang9\par
+                                                  \b\fs28 CAB BOOKING SYSTEM REQUIREMENTS\par
+INTRODUCTION\par
+Purpose:\par
+\b0\fs24 This system provides customers within the facility with the ability to book cabs smoothly. The customers can modify and are able to cancel the cab for any reason. That prepares within a role and policies. The software should provide an option for checking availability of the cabs. That is important for the customers to get a message if the cab is unavailable. That will be displayed into customers. The customers should be noted when the change has been made or any further changes\b\fs28\par
+Intended audience & reading suggection\par
+\b0\fs24 This project is a prototype for the cab booking system. This project is useful for the cab management system team and as well as to the passengers.\b\fs28\par
+Product scope\par
+\b0\fs24 The purpose of the cab booking system is an easy-to-use application for passengers, trying to book online cabs. The system is based on a relational database with its flight management and reservation functions. We will have a database server supporting hundreds of major cities around the world as well as thousands of flights by various airline companies. Above all, we hope to provide a comfortable user experience along with the best pricing available.\b\fs28\par
+Overall description\par
+PRODUCT PERSPECTIVES\par
+\b0\f1\u10625?\f0     \fs24 System Interfaces\par
+\f1\u10625?\f0     User Interfaces\par
+\f1\u10625?\f0     Hardware Interfaces\par
+\f1\u10625?\f0     Software Interfaces\par
+\f1\u10625?\f0     Communications Interfaces\par
+\fs28\lang9\par
+\b ACTORS\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\b0 Admin\par
+{\pntext\f2\'B7\tab}Customers\par
+{\pntext\f2\'B7\tab}Drivers\par
+
+\pard\sa160\sl259\slmult0\b FUNCTIONAL REQUIREMENTS\par
+       Customer Login\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj\b0\fs24 When the customer opens the website, the login page should open. Once the login page is open it should have the fields for the user to enter username and password. If it is a new user, then there should be an option to sign up. Login page should have option to Login using Gmail or Google Authentication.A login page should need forgot password option,using forget password they can change the password and login again.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa160\sl259\slmult0 Authentication-User Authentication can be done using Two factor authentication .\par
+{\pntext\f0 ii.\tab}Forgot password-if user forget password , there should have option to change password using email or mobile number. \par
+
+\pard\sa160\sl259\slmult0\b\fs28        Sign-Up   \par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj\b0\fs24 When a new user signup, Details like Name, Email, Password, Mobile should be collected. After signup There should be an option to go to Login page. There should have an option to validate the password to check whether the password is strong or weak. sign up page should also validate that a registered user can't register again.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa160\sl259\slmult0\qj username- username must start with an alphabet and should not contain symbols like #.\par
+{\pntext\f0 ii.\tab}password- password must be a combination of letters and numbers and length should be greater than 6.\par
+{\pntext\f0 iii.\tab}Email-email should be valid and validation should be checked.\par
+{\pntext\f0 iv.\tab}Field validation-All the field should be completed before submitting the form.\par
+{\pntext\f0 v.\tab}Mobile- mobile number should be valid and should be validated using OTP.\par
+
+\pard\sa160\sl259\slmult0         \b\fs28 Home Page\b0\fs24\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj Home page should need a search option. In the search option the user needs to enter the travelling destination, starting location, time and no of persons. Also, navbar should have links to navigate to different links. The footer of the website should have options for help section and contact information.Home page should contain user profile.user should be able to upload profile photo and also should be able to edit personal details.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa160\sl259\slmult0\qj  profile- once user is signed in , He or She can edit the personal details and photo.\par
+{\pntext\f0 ii.\tab}categories-Home page should need different categories like Local rides,rent and long  journey.\par
+{\pntext\f0 iii.\tab}Search- After searching the cab using location,If the user is signed in, then Booking button should be enabled.\par
+
+\pard\sa160\sl259\slmult0         \b\fs28 Booking Page\b0\fs24\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj Booking page should need the permission to read the user location or have option to enter location manually. After entering the starting and ending location, the customer can choose the vehicle for the journey. The booking page should have different sections like out-of-station and local rides and for rental etc.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa160\sl259\slmult0\qj  Location- user location should detected automatically through location permission  or  can  enter manually.\par
+{\pntext\f0 ii.\tab}Booking- User should be able to sort between available vehicles both Rating wise and Price wise.\par
+
+\pard\sa160\sl259\slmult0          \b\fs28 Payment page\b0\fs24\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj After booking page will be redirected for payment. The payment page should calculate the fare between 2 locations and add the corresponding tax of the ride. The Payment page should have the option to pay by using wallets like Google pay and Phone pe etc. invoice will be generated and user have the option to download invoice for further references.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa160\sl259\slmult0\qj Cod- After booking is completed, user can choose whether to pay online or cod.\par
+{\pntext\f0 ii.\tab}Online payment- if user choose online payment ,card details and other credentials  should  be  validated.\par
+
+\pard\sa160\sl259\slmult0         \b\fs28 Orders Page\b0\fs24\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj The Order page should have details about the previous orders of the customer and there should be an option for rating the cab driver after a successful ride. Also, there should be an option to register the complaint or report the cab details to the admin. if user needs to cance the order there should have an option to cancel the order.after cancellation amount paid by user should be refunded to the user.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa160\sl259\slmult0\qj Cab Details- user can see the cab details like vehicle number, driver mobile number etc..\par
+{\pntext\f0 ii.\tab}Cancel- if user wishes to cance the ride , option to cancel should be there for user.\par
+{\pntext\f0 iii.\tab}Deduction- once user cancel the ride, refund amound after deducting some amount should be shown.\par
+
+\pard\sa160\sl259\slmult0       \b\fs28  Driver Registration\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent360{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj\b0\fs24 Driver should be able to register through the system.There should be an option for drivers to upload there location.There should have an option to validate the password to check whether the password is strong or weak. sign up page should also validate that a registered user can't register again.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent360\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa160\sl259\slmult0\qj Details- Details like Cab Registration number,insurance details,pollution details  and  License of driver should be provided at registration time.\par
+{\pntext\f0 ii.\tab}Validation-validation to check whether All field should are filled.       \par
+
+\pard\sa160\sl259\slmult0        \b\fs28 Driver Login\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj\b0\fs24 Driver should be able to Login through the system,Login options should include Login through mail and Google Authentication.Login page should also need forgot password option.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa160\sl259\slmult0\qj Authentication- authentication like two factor authentication can be used.\par
+{\pntext\f0 ii.\tab}forgot password- There should be an option to change password if forgot.\par
+
+\pard\sa160\sl259\slmult0        \b\fs28 Ride Booking\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj\b0\fs24 Driver should be able to get notifications about new ride and There should be a provision to accept or reject ride.Also they should be option to see the commision that they will get after each ride.\par
+
+\pard 
+{\pntext\f0 i.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pnlcrm{\pntxta.}}
+\fi-360\li720\sa160\sl259\slmult0\qj Notification- once user books ride, it should be informed to corresponding driver.\par
+{\pntext\f0 ii.\tab}Commision- driver can see the amount or commision of each ride.\par
+{\pntext\f0 iii.\tab}Reject- There should be an option to reject a ride if they want.if driver reject a ride full refund should be provided to customer.              \par
+
+\pard\sa160\sl259\slmult0\qj        \b\fs28 Admin Login\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa160\sl259\slmult0\qj\b0\fs24 Admin should be able to login to the system using corresponding password and username.Admin login should not be included in customer home page and should be seperatly done.\b\fs28\par
+
+\pard\sa160\sl259\slmult0\qj\b0\fs24         i.     Admin should be able to see transaction details.\par
+        ii.    Admin should approve each driver registration.       \fs28             \b\par
+\par
+
+\pard\sa160\sl259\slmult0\b0\fs24        \par
+\b\fs28      \par
+\fs22                \par
+          \par
+}
+ 
